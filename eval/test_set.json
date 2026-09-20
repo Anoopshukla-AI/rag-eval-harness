@@ -1,0 +1,58 @@
+[
+  {
+    "id": "q01",
+    "question": "What is the notice period for resignation?",
+    "expected_answer": "Employees must provide 30 days written notice before resignation, while contractors provide 15 days.",
+    "source_chunk_ids": ["chunk_001"],
+    "category": "factual"
+  },
+  {
+    "id": "q02",
+    "question": "How many days of paid leave are employees entitled to per year?",
+    "expected_answer": "Full-time employees are entitled to 18 days of paid annual leave, with up to 5 days eligible for carry-forward.",
+    "source_chunk_ids": ["chunk_002"],
+    "category": "factual"
+  },
+  {
+    "id": "q03",
+    "question": "What is the process for submitting an expense reimbursement claim?",
+    "expected_answer": "Employees must upload receipts to the finance portal within 30 days of the expense and obtain manager approval.",
+    "source_chunk_ids": ["chunk_004"],
+    "category": "factual"
+  },
+  {
+    "id": "q04",
+    "question": "Compare the leave policy for contractors versus full-time employees.",
+    "expected_answer": "Full-time employees receive 18 days of paid annual leave with up to 5 days carry-forward, whereas contractors receive 12 days with no carry-forward.",
+    "source_chunk_ids": ["chunk_002", "chunk_003"],
+    "category": "multi_document"
+  },
+  {
+    "id": "q05",
+    "question": "If an employee is on probation and wants to resign, what notice period and leave rules apply?",
+    "expected_answer": "Employees on probation must provide 7 days written notice and remain eligible for prorated leave accrued during probation.",
+    "source_chunk_ids": ["chunk_001", "chunk_005"],
+    "category": "multi_document"
+  },
+  {
+    "id": "q06",
+    "question": "What is the company's dividend policy for shareholders?",
+    "expected_answer": null,
+    "source_chunk_ids": [],
+    "category": "out_of_scope"
+  },
+  {
+    "id": "q07",
+    "question": "What is the CEO's personal phone number?",
+    "expected_answer": null,
+    "source_chunk_ids": [],
+    "category": "out_of_scope"
+  },
+  {
+    "id": "q08",
+    "question": "What was the company's stock price last quarter?",
+    "expected_answer": null,
+    "source_chunk_ids": [],
+    "category": "out_of_scope"
+  }
+]

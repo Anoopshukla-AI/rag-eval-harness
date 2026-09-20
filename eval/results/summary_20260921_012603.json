@@ -1,0 +1,10 @@
+{
+  "hit_at_5": 1.0,
+  "mrr": 0.9,
+  "n": 5,
+  "pct_supported": 0.875,
+  "pct_correct": 0.625,
+  "pct_refusal_correct": 1.0,
+  "avg_latency_ms": 1624.4,
+  "timestamp": "20260921_012603"
+}

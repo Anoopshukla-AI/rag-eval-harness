@@ -1,0 +1,15 @@
+question_id,generated_answer,groundedness,correctness,refusal_check,latency_ms
+q01,"The notice period for resignation varies based on the employee's status:
+
+- Employees: 30 days
+- Contractors: 15 days
+- Employees on probation: 7 days",SUPPORTED,PARTIALLY_CORRECT,,1736.4
+q02,"Employees are entitled to 18 days of paid annual leave per year, with up to 5 days eligible for carry-forward to the next calendar year.",SUPPORTED,CORRECT,,1563.9
+q03,"To submit an expense reimbursement claim, employees must upload receipts to the finance portal within 30 days of the expense and obtain manager approval.",SUPPORTED,CORRECT,,2438.2
+q04,"Contractors are entitled to 12 days of paid annual leave per year, with no carry-forward permitted. 
+
+In contrast, full-time employees are entitled to 18 days of paid annual leave, with up to 5 days eligible for carry-forward to the next calendar year.",SUPPORTED,PARTIALLY_CORRECT,,2867.0
+q05,"Employees on probation who wish to resign must provide 7 days written notice, shorter than the standard 30-day period, and remain eligible for prorated leave accrued during probation.",UNSUPPORTED,INCORRECT,,4389.6
+q06,I don't have information about that in the available documents.,SUPPORTED,CORRECT,REFUSAL_CORRECT,0.0
+q07,I don't have information about that in the available documents.,SUPPORTED,CORRECT,REFUSAL_CORRECT,0.0
+q08,I don't have information about that in the available documents.,SUPPORTED,CORRECT,REFUSAL_CORRECT,0.0

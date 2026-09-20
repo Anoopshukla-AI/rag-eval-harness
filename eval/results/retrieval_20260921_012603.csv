@@ -1,0 +1,6 @@
+question_id,hit_at_5,reciprocal_rank
+q01,True,1.0
+q02,True,0.5
+q03,True,1.0
+q04,True,1.0
+q05,True,1.0
