@@ -1,5 +1,9 @@
 # RAG Evaluation Harness
 
+[![Tech Stack](https://img.shields.io/badge/Tech_Stack-Production_Ready-3776AB?style=flat-square)](https://github.com/Anoopshukla-AI/rag-eval-harness)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+
+
 ## Problem Statement
 
 RAG systems fail silently. A retrieval bug and a generation bug both produce a "wrong answer," but they need completely different fixes — and without measurement, most teams just say "it seems to work" and ship anyway. This project adds a lightweight evaluation layer on top of an existing production RAG document Q&A system, so retrieval quality and generation quality can be measured separately, tracked over time, and checked for regressions before any prompt, chunking, or model change ships.
